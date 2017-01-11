@@ -1,2 +1,2 @@
 # lasq
-A simple code sharing PHP web app
+A simple code sharing web app written in PHP.
