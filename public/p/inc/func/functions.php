@@ -50,17 +50,6 @@ function login_v($user,$pass){
         $err[]  =   'User doesn\'t exist';
         return FALSE;
     }
-    /*
-    if (preg_match($user_regex, $user) === true){
-        if(preg_match($pass_regex, $pass) === true){
-                
-        } else {
-            $err[]  =   lang('FORM_V_PASS_REGEX');
-        }
-    }else {
-        $err[]  =   lang('FORM_V_USER_REGEX');
-    }
-    */
     if (isset($err)){
         return $err;
     }
@@ -73,7 +62,7 @@ function recaptcha(){
         CURLOPT_URL =>  'https://www.google.com/recaptcha/api/siteverify',
         CURLOPT_POST    =>  1,
         CURLOPT_POSTFIELDS  =>  [
-            'secret'    =>  '6LerhxkUAAAAAFYWh_XV_3lPAurUstukxWp2SRnr', // Type your own reCAPTCHA API secret key
+            'secret'    =>  '', // Type your own reCAPTCHA API secret key
             'response'  =>  $post_recaptcha,
             'remoteip'  =>  ''
         ]
