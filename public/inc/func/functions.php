@@ -69,7 +69,7 @@ function recaptcha(){
         CURLOPT_URL =>  'https://www.google.com/recaptcha/api/siteverify',
         CURLOPT_POST    =>  1,
         CURLOPT_POSTFIELDS  =>  [
-            'secret'    =>  '6LerhxkUAAAAAFYWh_XV_3lPAurUstukxWp2SRnr', // Type your own reCAPTCHA API secret key
+            'secret'    =>  '', // Type your own reCAPTCHA API secret key
             'response'  =>  "$post_recaptcha"
         ]
     ]);
