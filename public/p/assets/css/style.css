@@ -1,0 +1,31 @@
+.logo{
+    margin: 50px auto;
+}
+.main-btn a{
+    text-decoration: none;
+}
+/* Bootstrap edits */
+.navbar-fixed-top {
+	margin-bottom:	70px;
+}
+.navbar-inverse .navbar-brand{
+	font-size:	1.25em;
+}
+.btn{
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+i .username .date .time{
+    color: #366;
+}
+header{
+    display: block;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.code-container{
+    margin-top: 40px;
+    width: 90%;
+    left: 5%;
+    border: 4px #333 solid;
+}

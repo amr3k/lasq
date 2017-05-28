@@ -1,0 +1,164 @@
+body{
+    margin-top: 70px;
+}
+.show-pass{
+    position: absolute;
+    right: 20px;
+    top: 7px;
+    color: #003D5C;
+    cursor: pointer;
+}
+.wrapper{
+    min-height: 100%;
+    position: relative;
+}
+/******************************************************************************/
+/******************************************************************************/
+/*Index*/
+.login {
+    margin: 20px auto;
+}
+.login input {
+    margin-bottom: 10px;
+}
+.btn-primary {
+    font-size: 1em;
+}
+.stat{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 20px;
+    background-color: #BDD4DE;
+    color: #24282B;
+    text-decoration: none;
+    font-size: 1.5em;
+    border-radius: 5px;
+}
+.dashboard-stats a{
+	color:inherit;
+	text-decoration:none;
+}
+.stat span{
+    font-size: 3em;
+    display: block;
+}
+.stat:hover{
+    background-color: #35495e;
+    color: #F0F0F0;
+    box-shadow: 0px 0px 20px 1px black;
+    transition: 0.15s;
+}
+.main-btn a{
+    text-decoration:none;
+}
+/******************************************************************************/
+/******************************************************************************/
+/* Bootstrap edits */
+.navbar-fixed-top {
+	margin-bottom:	10px;
+}
+.navbar-inverse .navbar-brand{
+	font-size:	1.25em;
+}
+.form-control{
+    position: relative;
+}
+.table-responsive{
+    margin-top: 50px;
+}
+.table-responsive .main-tr{
+    background-color: #101010;
+    color: #9d9d9d;
+    font-size: 1.5em;
+}
+.tbltr:hover{
+    background-color: #FFFF9D;
+    color: black;
+    transition: 0.15s;
+}
+/******************************************************************************/
+/******************************************************************************/
+/*Footer*/
+/*
+.bf{
+    margin: 100px;
+}
+.footer-distributed{
+        position: absolute;
+        width: 100%;
+        height: 200px;
+        right: 0;
+        bottom: 0;
+        left: 0;
+	background-color: #111;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	text-align: left;
+	font: normal 16px sans-serif;
+	padding: 45px 50px;
+	margin-top: 80px;
+}
+.footer-distributed h1{
+    color: #aaa;
+}
+.footer-distributed .footer-left p{
+	color:  #888;
+	font-size: 14px;
+	margin: 0;
+}
+/* Footer links */
+/*
+.footer-distributed p.footer-links{
+	font-size:18px;
+	font-weight: bold;
+	color:  #888;
+	margin: 0 0 0px;
+	padding: 0;
+}
+.footer-distributed p.footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+.footer-distributed .footer-right{
+	float: right;
+	margin-top: 6px;
+	max-width: 180px;
+}
+.footer-distributed .footer-right a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	background-color:  #222;
+	border-radius: 2px;
+	font-size: 20px;
+	color: #999;
+	text-align: center;
+	line-height: 35px;
+	margin-left: 3px;
+}
+.footer-right .linkedin:hover{
+    background-color: #0073B0;
+    color: white;
+    transition: 0.15s;
+}
+.footer-right .github:hover{
+    background-color: #24292E;
+    color: white;
+    transition: 0.15s;
+}
+@media (max-width: 600px) {
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-right{
+		text-align: center;
+	}
+	.footer-distributed .footer-right{
+		float: bottom;
+		margin: 0 auto 20px;
+	}
+	.footer-distributed .footer-left p.footer-links{
+		line-height: 1.8;
+	}
+}
+*/
